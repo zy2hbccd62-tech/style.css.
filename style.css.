@@ -47,7 +47,11 @@ header.hero {
     color: white;
     padding: 100px 20px;
     text-align: center;
-    /* C'est ici que le code d'image sera ajouté plus tard (Étape 2) */
+    /* C'est ici que le code d'image sera ajouté plus tard (Étape 2) */background-image: url('images/banniere-chef.jpg');
+background-size: cover; 
+background-position: center; 
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+
 }
 
 header.hero h1 {
