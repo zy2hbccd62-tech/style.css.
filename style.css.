@@ -1,0 +1,97 @@
+/* Styles de base et reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1, h2, h3 {
+    font-family: Georgia, serif; /* Police pour un aspect plus "gastronomique" */
+    color: #444;
+}
+
+/* Styles des Boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 10px 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn-primary {
+    background-color: #A32A29; /* Couleur chaude (Rouge bordeaux, Gastronomie) */
+    color: white;
+}
+.btn-secondary {
+    background-color: #EFEFEF;
+    color: #444;
+    border: 1px solid #CCC;
+}
+.btn-primary:hover {
+    background-color: #7A1F1F;
+}
+.btn-secondary:hover {
+    background-color: #DDD;
+}
+
+/* Styles de la Bannière (Hero) */
+.hero {
+    background-color: #F8F8F8; /* Couleur claire pour le fond */
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 3em;
+    color: #A32A29;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Styles des Sections */
+.philosophie, .services {
+    padding: 60px 0;
+    text-align: center;
+}
+.philosophie {
+    background-color: white;
+}
+.services .container {
+    display: flex; /* Utilisation de flexbox pour aligner les cartes */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles des Cartes de Service */
+.service-card {
+    background: white;
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    flex: 1; /* Permet aux cartes de prendre une part égale de l'espace */
+    min-width: 300px; /* Taille minimale pour éviter l'écrasement */
+    max-width: 45%;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
